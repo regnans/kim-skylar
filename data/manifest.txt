@@ -1,0 +1,6 @@
+Manifest file for knb-lter-sbc.77.8.zip created on Wed Feb 28 23:36:42 UTC 2024
+Lobster_Abundance_All_Years_20220829.csv (358462 bytes)
+Lobster_Trap_Counts_All_Years_20210519.csv (765871 bytes)
+knb-lter-sbc.77.8.xml (47752 bytes)
+knb-lter-sbc.77.8.txt (24519 bytes)
+knb-lter-sbc.77.8.report.xml (53117 bytes)
