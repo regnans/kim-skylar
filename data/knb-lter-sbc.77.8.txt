@@ -1,0 +1,907 @@
+
+  
+    
+      uid=SBC,o=EDI,dc=ecoinformatics,dc=org
+      all
+    
+    
+      uid=lkui,o=EDI,dc=ecoinformatics,dc=org
+      all
+    
+    
+      public
+      read
+    
+  
+  
+    doi:10.6073/pasta/25aa371650a671bafad64dd25a39ee18Lobster abundance, size and fishing pressure
+    SBC LTER: Reef: Abundance, size and fishing effort for California Spiny Lobster (Panulirus interruptus), ongoing since 2012
+    
+      Santa Barbara Coastal LTER
+      			Marine Science Institute University of California
+			Santa Barbara, CA 93106  USA
+      sbclter@msi.ucsb.edu
+    
+    
+      Daniel C Reed
+      			Marine Science Institute University of California
+			Santa Barbara, CA 93106-6150  US
+      805-893-8363
+      danreed@ucsb.edu
+      https://orcid.org/0000-0003-3015-8717
+    
+    
+      Robert J Miller
+      			Marine Science Institute University of California
+			Santa Barbara, CA 93106-6150  US
+      805-893-6174
+      rjmiller@ucsb.edu
+      https://orcid.org/0000-0002-8350-3759
+    
+    2022-11-16
+    English
+    
+      
+        
+      Data on abundance, size and fishing pressure of California spiny
+      lobster (Panulirus interruptus) are collected along the mainland
+      coast of the Santa Barbara Channel. Spiny lobsters are an
+      important predator in giant kelp forests off southern California.
+      Two SBC LTER study reefs are located in or near the California
+      Fish and Game Network of Marine Protected Areas (MPA), Naples and
+      Isla Vista, both established as MPAs on 2012-01-01. MPAs provide a
+      unique opportunity to investigate the effects of fishing on kelp
+      forest community dynamics. Sampling began in 2012 and is ongoing.
+    
+        
+      This dataset contains two tables. 1) Abundance and size data
+      collected annually by divers in late summer before the start of
+      the fishing season at five SBC LTER long term kelp forest study
+      sites: two within MPAs (Naples and Isla Vista) and three outside
+      (Arroyo Quemado, Mohawk and Carpinteria). 2) Fishing pressure, as
+      determined by counting the number of commercial trap floats. Data
+      are collected every two to four weeks during the lobster fishing
+      season (October to March) at nine sites along the mainland, eight
+      of which are also SBC LTER long-term kelp forest study reefs.
+    
+        
+      See Methods for more information.  
+    
+      
+    
+    
+      populations
+      LTER Core Research Areas
+    
+    
+      abundance
+      benthic
+      long term
+      long term ecological research
+      LTER
+      marine
+      populations
+      Santa Barbara Coastal
+      size
+      LTER Controlled Vocabulary v1
+    
+    
+      Community Structure
+      Kelp Forest
+      populations
+      Reef
+      SBC-LTER Controlled Vocabulary
+    
+    
+      Arroyo Burro Reef
+      Arroyo Hondo Reef
+      Arroyo Quemado Reef
+      Carpinteria Reef
+      Goleta Bay
+      Isla Vista Reef
+      Mohawk Reef
+      Naples Reef
+      Santa Barbara Coastal LTER Places
+    
+    
+      Marine Invertebrates
+      Global Change Master Directory (GCMD) v6.0.0.0.0
+    
+    
+      Benthos
+      Reefs
+      Zoobenthos
+      NBII Biocomplexity
+    
+    
+      California Spiny Lobster
+      crustaceans
+      Fishing pressure
+      LTER
+      LTER Core Research Areas
+      Marine Invertebrates
+      Panulirus interruptus
+      none
+    
+    
+      
+    This data package is released under the Creative Commons License
+    Attribution 4.0 International (CC BY 4.0, see
+    https://creativecommons.org/licenses/by/4.0/). This license states
+    that consumers ("Data Users" herein) may distribute,
+    adapt, reuse, remix, and build upon this work, as long as they give
+    appropriate credit, provide a link to the license, and indicate if
+    changes were made. If redistributed, a Data User may not apply
+    additional restrictions or technological measures that prevent
+    access.
+  
+      
+    The Data User has an ethical obligation to cite the data source
+    appropriately in any publication or product that results from its
+    use, and notify the data contact or creator. Communication,
+    collaboration, or co-authorship (as appropriate) with the creators
+    of this data package is encouraged to prevent duplicate research or
+    publication. The Data User is urged to contact the authors of these
+    data if any questions about methodology or results occur. The Data
+    User should realize that these data may be actively used by others
+    for ongoing research and that coordination may be necessary to
+    prevent duplication or inappropriate use. The Data User should
+    realize that misinterpretation may occur if data are used outside of
+    the context of the original study. The Data User should be aware
+    that data are updated periodically and it is the responsibility of
+    the Data User to check for new versions of the data.
+  
+      
+    While substantial efforts are made to ensure the accuracy of data
+    and associated documentation, complete accuracy of data sets cannot
+    be guaranteed. This data package (with its components) is made
+    available “as is” and with no warranty of accuracy or fitness for
+    use. The creators of this data package and the repository where
+    these data were obtained shall not be liable for any damages
+    resulting from misinterpretation, use or misuse of the data package
+    or its components.
+  
+    
+    
+      
+        https://sbclter.msi.ucsb.edu/
+      
+    
+    https://doi.org/10.6073/pasta/25aa371650a671bafad64dd25a39ee18
+      
+        AQUE: Arroyo Quemado Reef: Arroyo Quemado Reef depth range from 5.4 m to 10.7 m. Reference on Land is close to US101/Arroyo Quemada Ln.
+        
+          -120.11905
+          -120.11905
+          34.46774988
+          34.46774988
+        
+      
+      
+        NAPL: Naples Reef is located on the Santa Barbara Channel near the community of Naples and Dos Pueblos Canyon, Santa Barbara County, CA. Depth ranges from -5.9 to -13.4 meters.
+        
+          -119.95154
+          -119.95154
+          34.4221216
+          34.4221216
+        
+      
+      
+        IVEE: Isla Vista (IV) Reef is located on the Santa Barbara Channel near the University of California Santa Barbara, CA. Depth range is from -8.2 to -8.8 meters.
+        
+          -119.85755
+          -119.85755
+          34.402783
+          34.402783
+        
+      
+      
+        MOHK: Mohawk Reef: Mohawk Reef depth ranges from 4.5m to 6.0 m. Reference on land is Mohawk Rd / Edgewater Way.
+        
+          -119.72957
+          -119.72957
+          34.3940708
+          34.3940708
+        
+      
+      
+        CARP: Carpinteria Reef is located on the Santa Barbara Channel offshore of the Carpinteria Salt Marsh. Depth range is from -2.2 to -8.8 meters
+        
+          -119.5416933
+          -119.5416933
+          34.3916319
+          34.3916319
+        
+      
+      
+        Arroyo Hondo Reef lobster trap survey extent: Approximate maximum bounding coordinates for lobster trap survey. Survey area covers a swath parallel to shore, from shoreline to the 15m isobath (approx 1km offshore). 
+        
+          -120.14917
+          -120.1375
+          34.473
+          34.4624
+        
+      
+      
+        Arroyo Hondo-to-Arroyo Quemado lobster trap survey extent: Approximate maximum bounding coordinates for lobster trap survey. Survey area covers a swath parallel to shore, from shoreline to the 15m isobath (approx 1km offshore). 
+        
+          -120.1375
+          -120.1325
+          34.473
+          34.4621
+        
+      
+      
+        Arroyo Quemado Reef lobster trap survey extent: Approximate maximum bounding coordinates for lobster trap survey. Survey area covers a swath parallel to shore, from shoreline to the 15m isobath (approx 1km offshore). 
+        
+          -120.1325
+          -120.11417
+          34.4721
+          34.4579
+        
+      
+      
+        Naples Reef lobster trap survey extent: Approximate maximum bounding coordinates for lobster trap survey. Survey area covers a swath parallel to shore, from shoreline to the 15m isobath (approx 1km offshore). 
+        
+          -119.96667
+          -119.94833
+          34.4407
+          34.4233
+        
+      
+      
+        Isla Vista Reef lobster trap survey extent: Approximate maximum bounding coordinates for lobster trap survey. Survey area covers a swath parallel to shore, from shoreline to the 15m isobath (approx 1km offshore). 
+        
+          -119.89333
+          -119.85083
+          34.4189
+          34.3958
+        
+      
+      
+        Goleta Bay Reef lobster trap survey extent: Approximate maximum bounding coordinates for lobster trap survey. Survey area covers a swath parallel to shore, from shoreline to the 15m isobath (approx 1km offshore). 
+        
+          -119.82833
+          -119.81083
+          34.4156
+          34.4051
+        
+      
+      
+        Arroyo Burro Reef lobster trap survey extent: Approximate maximum bounding coordinates for lobster trap survey. Survey area covers a swath parallel to shore, from shoreline to the 15m isobath (approx 1km offshore). 
+        
+          -119.74917
+          -119.7375
+          34.4038
+          34.3895
+        
+      
+      
+        Mohawk Reef lobster trap survey extent: Approximate maximum bounding coordinates for lobster trap survey. Survey area covers a swath parallel to shore, from shoreline to the 15m isobath (approx 1km offshore). 
+        
+          -119.7375
+          -119.7275
+          34.3995
+          34.3858
+        
+      
+      
+        Carpinteria Reef lobster trap survey extent: Approximate maximum bounding coordinates for lobster trap survey. Survey area covers a swath parallel to shore, from shoreline to the 15m isobath (approx 1km offshore). 
+        
+          -119.54833
+          -119.53
+          34.405
+          34.3851
+        
+      
+      
+        
+          
+            2012-08-20
+          
+          
+            2022-08-26
+          
+        
+      
+    
+    
+      Information Manager, Santa Barbara Coastal LTER
+      			Marine Science Institute
+			University of California
+			Santa Barbara, California 93106-6150  United States
+      805 893 2071
+      sbclter@msi.ucsb.edu
+      https://sbclter.msi.ucsb.edu/
+    
+    
+    Environmental Data Initiativeinfo@edirepository.orghttps://edirepository.org0330j0z60Environmental Data Initiative
+      
+        
+          
+            
+      The number and sizes of spiny lobster are recorded by divers in
+      four 60 x 5 m (300 m2 total) lobster
+      transects that are associated with each permanent SBC LTER kelp
+      forest community survey transect.
+    
+            
+      Data on the abundance and size of the California spiny lobster,
+      Panulirus interruptus, are collected annually
+      in late summer at five sites (Arroyo Quemado, Carpinteria, Isla
+      Vista, Mohawk and Naples) along the mainland coast of the Santa
+      Barbara Channel. Two of these sites (Naples and Isla Vista) were
+      designated as Marine Protected Areas (MPA) in January 2012. The
+      abundances of algae, invertebrates and fish have been monitored at
+      these sites since 2001 in replicate 40 m x 2 m permanent SBC LTER
+      transects. Although lobsters are counted in these transects, their
+      density is not high enough to obtain reliable estimates of
+      abundance. Therefore, the additional surveys were initiated in
+      2012, which encompass a much larger sampling area and focus
+      exclusively on lobster.
+    
+          
+        
+        
+          SBC LTER Protocols - Reed Lab - Lobster Abundance and Size
+          
+             Reed
+          
+          
+            
+              https://sbclter.msi.ucsb.edu/external/Reef/Protocols/lobsters/Reed_2014-09-29_lobster_abundance.pdf
+            
+          
+        
+      
+      
+        
+          
+            
+      Observers count surface floats which mark baited wire traps used
+      by the commercial fishery in depths less than 15 m, in defined
+      areas of coastline.
+    
+            
+      The commercial fishery for the California spiny lobster
+      (Panulirus interruptus) involves the use
+      baited wire traps deployed on the bottom in rocky habitats and
+      marked with surface floats (one trap per float). The fishing
+      season lasts from October to March. The majority of fishing occurs
+      in depths < 15 m. Fishing pressure by the commercial trap
+      fishery is estimated at nine mainland areas, eight of which are
+      SBC LTER kelp forest study sites. Two sites, Naples and Isla
+      Vista, became marine protected areas (MPA) in January 2012.
+      Fishing pressure is recorded by counting the number of traps in
+      defined areas of coastline every two to four weeks during the
+      fishing season (October to March). Lobster trap surveys began in
+      October 2012.
+    
+          
+        
+        
+          SBC LTER Protocols - Reed Lab - Lobster Fishing Pressure
+          
+             Reed
+          
+          
+            
+              https://sbclter.msi.ucsb.edu/external/Reef/Protocols/lobsters/Reed_2014-09-29_lobster_trap_counts.pdf
+            
+          
+        
+      
+    
+    
+      Santa Barbara Coastal Long Term Ecological Research Project
+      
+        Dr. Robert Miller
+        			Marine Science Institute
+			University of California
+			Santa Barbara, California 93106-6150  United States
+        805 893 6174
+        miller@msi.ucsb.edu
+        Principal Investigator
+      
+      
+        Dr. Dan Reed
+        			Marine Science Institute
+			University of California
+			Santa Barbara, California 93106-6150  United States
+        805 893 8363
+        dan.reed@lifesci.ucsb.edu
+        Co-principal Investigator
+      
+      
+        Dr. Adrian Stier
+        			Department of Ecology, Evolution and Marine Biology
+			University of California
+			Santa Barbara, California 93106-9260  United States
+        805 893 5467
+        adrian.stier@lifesci.ucsb.edu
+        Co-principal Investigator
+      
+      
+        Dr. Gretchen Hoffman
+        			Department of Ecology, Evolution and Marine Biology
+			University of California
+			Santa Barbara, California 93106-9620  United States
+        805 893 6175
+        hofmann@lifesci.ucsb.edu
+        Co-principal Investigator
+      
+      
+        Dr. David Siegel
+        			Institute for Computational Earth System Science
+			University of California
+			Santa Barbara, California 93106-3060  United States
+        805 893 4547
+        davey@icess.ucsb.edu
+        Co-principal Investigator
+      
+      
+        
+          The Santa Barbara Coastal LTER (SBC LTER) is an interdisciplinary research and education program
+established in April 2000 with the goal of developing a predictive understanding of how environmental
+drivers interact with terrestrial and oceanic processes to alter material flows and influence the ecology of
+coastal ecosystems. SBC LTER's principal study domain is the semi-arid coast and nearshore waters of
+the Santa Barbara Channel in southern California, and its diverse and productive marine forests of giant
+kelp (Macrocystis pyrifera) serve as the focal study ecosystem. Analyses of our long-term data have
+identified many of the environmental drivers and ecological processes underlying the production and
+community dynamics of kelp forests. The research proposed to address this question is integrated in a conceptual framework
+that focuses on the causes and ecological consequences of the dynamics of a relatively short-lived
+foundation species in a setting of long-term climate change and human use.
+        
+      
+      
+        
+          NSF Award OCE-9982105, OCE-0620276, OCE-1232779, OCE-1831937
+        
+      
+    
+    
+      Time-series of lobster abundance and size
+      Time-series of abundance and size of California spiny lobster (Panulirus interruptus) at SBC LTER reefs
+      
+        Lobster_Abundance_All_Years_20220829.csv
+        358462
+        806e2afd04b293cefc9fddc4162c3f92
+        
+          
+            1
+            \r\n
+            column
+            
+              ,
+              no
+              "
+            
+          
+        
+        
+          
+            https://pasta.lternet.edu/package/data/eml/knb-lter-sbc/77/8/f32823fba432f58f66c06b589b7efac6
+          
+        
+      
+      
+        
+          YEAR
+          Year
+          Calendar year
+          integer
+          
+            
+              YYYY
+              1
+              
+            
+          
+        
+        
+          MONTH
+          Month
+          Calendar month
+          string
+          
+            
+              
+                
+                  any text
+                
+              
+            
+          
+        
+        
+          DATE
+          Date
+          Date of survey, (d)d-mon-yy
+          date
+          
+            
+              YYYY-MM-DD
+              1
+              
+            
+          
+        
+        
+          SITE
+          Site
+          Code for site sampled
+          string
+          
+            
+              
+                
+                  
+                    AQUE
+                    Arroyo Quemado
+                  
+                  
+                    CARP
+                    Carpinteria
+                  
+                  
+                    IVEE
+                    Isla Vista
+                  
+                  
+                    MOHK
+                    Mohawk
+                  
+                  
+                    NAPL
+                    Naples
+                  
+                
+              
+            
+          
+        
+        
+          TRANSECT
+          SBC LTER Transect name
+          40m transects defined by six permanent markers (stainless steel eyebolts or rebar stakes) at 0, 8, 16, 24, 32, and 40m
+          string
+          
+            
+              
+                
+                  any text
+                
+              
+            
+          
+        
+        
+          REPLICATE
+          Lobster Transect name
+          Code for the lobster transect. 4 lobster transects (60m x 2m) are associated with an SBC LTER permanent transect. Transects A-D are arranged south to north (A is southern-most and D is the northern-most)
+          string
+          
+            
+              
+                
+                  any text
+                
+              
+            
+          
+        
+        
+          SIZE_MM
+          Size
+          Visual estimate of lobster carapace length in mm
+          float
+          
+            
+              
+                millimeter
+              
+              0.1
+              
+                real
+              
+            
+          
+          
+            -99999
+            value not recorded or not available
+          
+        
+        
+          COUNT
+          Count
+          Total number of lobsters of this size in the lobster transect
+          integer
+          
+            
+              
+                number
+              
+              1
+              
+                integer
+              
+            
+          
+          
+            -99999
+            value not recorded or not available
+          
+        
+        
+          NUM_AO
+          NUM AO
+          Number of lobster that only its antenna was visiable
+          integer
+          
+            
+              
+                number
+              
+              1
+              
+                integer
+              
+            
+          
+          
+            -99999
+            value not recorded or not available
+          
+        
+        
+          AREA
+          Sample Area
+          Lobster transect sampling area in meters squared
+          integer
+          
+            
+              
+                meterSquared
+              
+              1
+              
+                integer
+              
+            
+          
+          
+            -99999
+            value not recorded or not available
+          
+        
+      
+      7574
+    
+    
+      Time-series of lobster trap buoy counts
+      Time-series of counted trap marker buoys in spatially-discrete subsections inshore of the 15-m isobath
+      
+        Lobster_Trap_Counts_All_Years_20210519.csv
+        765871
+        2f44e7c3ef3c11853c44f1ff29746943
+        
+          
+            1
+            \r\n
+            column
+            
+              ,
+              no
+              "
+            
+          
+        
+        
+          
+            https://pasta.lternet.edu/package/data/eml/knb-lter-sbc/77/8/66dd61c75bda17c23a3bce458c56ed84
+          
+        
+      
+      
+        
+          YEAR
+          Year
+          Calendar year
+          integer
+          
+            
+              YYYY
+              1
+              
+            
+          
+        
+        
+          MONTH
+          Month
+          Calendar month
+          string
+          
+            
+              
+                
+                  any text
+                
+              
+            
+          
+        
+        
+          DATE
+          Date
+          Date of survey. MM/DD/YYYY
+          date
+          
+            
+              YYYY-MM-DD
+              1
+              
+            
+          
+        
+        
+          FISHING_SEASON
+          Fishing Season
+          Year-range for the period when spiny lobster are legally fished in California, 6-months (October to March) 
+          string
+          
+            
+              
+                
+                  any text
+                
+              
+            
+          
+        
+        
+          SITE
+          Site
+          Code for site sampled
+          string
+          
+            
+              
+                
+                  
+                    ABUR
+                    Arroyo Burro Reef
+                  
+                  
+                    AHND
+                    Arroyo Hondo Reef
+                  
+                  
+                    AHND to AQUE
+                    Area between Arroyo Hondo and Arroyo Quemado
+                  
+                  
+                    AQUE
+                    Arroyo Quemado Reef
+                  
+                  
+                    CARP
+                    Carpinteria Reef
+                  
+                  
+                    GOLB
+                    Goleta Bay Reef
+                  
+                  
+                    IVEE
+                    Isla Vista Reef
+                  
+                  
+                    MOHK
+                    Mohawk Reef
+                  
+                  
+                    NAPL
+                    Naples Reef
+                  
+                
+              
+            
+          
+        
+        
+          SEGMENT_START
+          Segment start
+          Longitude (ddd mm.fff) of the starting edge of survey segment (usually west)
+          string
+          
+            
+              
+                
+                  any text
+                
+              
+            
+          
+        
+        
+          SEGMENT_END
+          Segment end
+          Longitude (ddd mm.fff) of the ending edge of survey segment  (usually east)
+          string
+          
+            
+              
+                
+                  any text
+                
+              
+            
+          
+        
+        
+          TRAPS
+          Number of traps
+          Number of lobster trap surface floats present in the 76 meter swath extending from shore to the 15 m isobath (approx. 1km)
+          integer
+          
+            
+              
+                number
+              
+              1
+              
+                integer
+              
+            
+          
+        
+        
+          OBSERVER
+          Observer code
+          Numeric code indicating the SBCLTER data collector
+          string
+          
+            
+              
+                
+                  any text
+                
+              
+            
+          
+        
+        
+          NOTES
+          Notes
+          Field observations associated with data collection
+          string
+          
+            
+              
+                
+                  any text
+                
+              
+            
+          
+        
+      
+      11071
+    
+  
+  
+    
+      
+        
+          area, meter squared from the LTER unit dictionary
+        
+        
+          .001 meters
+        
+        
+          a number
+        
+      
+    
+  
