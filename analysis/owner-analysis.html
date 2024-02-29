@@ -175,6 +175,66 @@ $ AREA      &lt;dbl&gt; 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 3
 </div>
 </div>
 </section>
+<section id="cleaning-data" class="level2">
+<h2 class="anchored" data-anchor-id="cleaning-data">Cleaning data</h2>
+<p>Substitute NA for -9999</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>lobster_abun_clean <span class="ot">&lt;-</span> lobster_abundance <span class="sc">%&gt;%</span> </span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">SIZE_MM =</span> <span class="fu">na_if</span>(SIZE_MM, <span class="sc">-</span><span class="dv">99999</span>))</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="fu">unique</span>(lobster_abun_clean<span class="sc">$</span>SIZE_MM)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  [1]    NA  70.0  60.0  65.0  85.0  67.0  52.0  64.0  58.0  62.0  86.0 105.0
+ [13]  57.0  53.0  56.0  83.0  75.0  90.0  55.0  63.0  72.0  66.0  68.0  87.0
+ [25]  77.0  78.0  80.0  88.0  89.0  95.0  76.0  82.0  61.0  81.0  92.0  74.0
+ [37]  71.0 156.0  98.0  47.0  84.0 110.0  79.0  54.0 108.0  48.0  93.0 100.0
+ [49]  73.0  59.0  97.0  96.0  99.0  69.0  35.0  30.0  45.0  50.0  25.0 102.0
+ [61] 112.0  28.0  38.0 103.0 107.0  40.0  42.0  46.0 118.0 120.0  49.0 122.0
+ [73] 109.0  94.0  51.0  32.0  37.0 115.0 104.0 165.0  70.2  74.5  18.0  43.0
+ [85]  91.0 150.0 101.0  41.0  68.8 106.0 154.0 125.0 155.0 183.0 114.0 111.0
+ [97] 193.0 116.0 113.0 171.0 123.0 160.0 145.0 117.0 124.0 128.0  72.5 132.0
+[109] 135.0 170.0  33.0  44.0 136.0 220.0 141.0 126.0 131.0 130.0 146.0 127.0</code></pre>
+</div>
+</div>
+<p>Filter to exclude Naples Reef</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>lobster_abun_clean <span class="ot">&lt;-</span> lobster_abun_clean <span class="sc">%&gt;%</span> </span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(SITE <span class="sc">!=</span> <span class="st">"NAPL"</span>)</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="fu">unique</span>(lobster_abun_clean<span class="sc">$</span>SITE)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "IVEE" "AQUE" "CARP" "MOHK"</code></pre>
+</div>
+</div>
+<p>Filter to subset SITE == AQUE and length &gt; 70 mm</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>aque_70 <span class="ot">&lt;-</span> lobster_abundance <span class="sc">%&gt;%</span> </span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(SITE <span class="sc">==</span> <span class="st">"AQUE"</span>, SIZE_MM <span class="sc">&gt;=</span> <span class="dv">70</span>)</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aque_70)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>      YEAR          MONTH            DATE                SITE          
+ Min.   :2012   Min.   :8.000   Min.   :2012-08-24   Length:254        
+ 1st Qu.:2014   1st Qu.:8.000   1st Qu.:2014-09-12   Class :character  
+ Median :2016   Median :8.000   Median :2016-08-24   Mode  :character  
+ Mean   :2017   Mean   :8.177   Mean   :2017-03-28                     
+ 3rd Qu.:2019   3rd Qu.:8.000   3rd Qu.:2019-08-28                     
+ Max.   :2022   Max.   :9.000   Max.   :2022-08-25                     
+    TRANSECT      REPLICATE            SIZE_MM           COUNT      
+ Min.   :1.000   Length:254         Min.   : 70.00   Min.   :1.000  
+ 1st Qu.:4.000   Class :character   1st Qu.: 74.00   1st Qu.:1.000  
+ Median :5.000   Mode  :character   Median : 79.00   Median :1.000  
+ Mean   :4.311                      Mean   : 79.46   Mean   :1.406  
+ 3rd Qu.:5.000                      3rd Qu.: 84.00   3rd Qu.:1.000  
+ Max.   :7.000                      Max.   :109.00   Max.   :7.000  
+     NUM_AO           AREA    
+ Min.   :0.000   Min.   :300  
+ 1st Qu.:0.000   1st Qu.:300  
+ Median :0.000   Median :300  
+ Mean   :0.122   Mean   :300  
+ 3rd Qu.:0.000   3rd Qu.:300  
+ Max.   :5.000   Max.   :300  </code></pre>
+</div>
+</div>
+</section>
 
 </main>
 <!-- /main column -->

@@ -34,3 +34,27 @@ unique(lobster_abundance$SITE)
 
 ```
 
+## Cleaning data
+Substitute NA for -9999 
+```{r}
+lobster_abun_clean <- lobster_abundance %>% 
+  mutate(SIZE_MM = na_if(SIZE_MM, -99999))
+
+unique(lobster_abun_clean$SIZE_MM)
+
+```
+
+Filter to exclude Naples Reef
+```{r}
+lobster_abun_clean <- lobster_abun_clean %>% 
+  filter(SITE != "NAPL")
+unique(lobster_abun_clean$SITE)
+```
+
+Filter to subset SITE == AQUE and length > 70 mm
+```{r}
+aque_70 <- lobster_abundance %>% 
+  filter(SITE == "AQUE", SIZE_MM >= 70)
+summary(aque_70)
+```
+
