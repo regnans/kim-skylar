@@ -37,18 +37,18 @@ unique(lobster_abundance$SITE)
 ## Cleaning data
 Substitute NA for -9999 
 ```{r}
-lobster_abun_clean <- lobster_abundance %>% 
+lobster_abundance <- lobster_abundance %>% 
   mutate(SIZE_MM = na_if(SIZE_MM, -99999))
 
-unique(lobster_abun_clean$SIZE_MM)
+unique(lobster_abundance$SIZE_MM)
 
 ```
 
 Filter to exclude Naples Reef
 ```{r}
-lobster_abun_clean <- lobster_abun_clean %>% 
+no_napl <- lobster_abundance %>% 
   filter(SITE != "NAPL")
-unique(lobster_abun_clean$SITE)
+unique(no_napl$SITE)
 ```
 
 Filter to subset SITE == AQUE and length > 70 mm
@@ -56,5 +56,16 @@ Filter to subset SITE == AQUE and length > 70 mm
 aque_70 <- lobster_abundance %>% 
   filter(SITE == "AQUE", SIZE_MM >= 70)
 summary(aque_70)
+```
+
+## Exercise: Data Visualization
+```{r}
+ggplot(lobster_abundance, 
+       aes(x = SIZE_MM)) +
+  geom_histogram() +
+  facet_wrap(~SITE)+
+  labs(title = "Lobster Size by Region")+
+  theme_bw()
+
 ```
 
