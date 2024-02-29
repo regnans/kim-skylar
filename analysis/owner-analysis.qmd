@@ -66,6 +66,6 @@ ggplot(lobster_abundance,
   facet_wrap(~SITE)+
   labs(title = "Lobster Size by Region")+
   theme_bw()
-
+ggsave("figs/lobster_size_region.jpg", width = 8, height = 6, units = "in")
 ```
 
