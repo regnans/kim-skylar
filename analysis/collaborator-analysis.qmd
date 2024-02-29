@@ -56,7 +56,14 @@ lobster_filter = lobster_update %>%
 unique(lobster_filter$SITE)
 ```
 
-question 3
+
+## Exercise: Data Visualization
+
 ```{r}
+ggplot(data = lobster_filter, aes(x = TRAPS))+
+  geom_histogram()+
+  facet_wrap(~SITE)
+  
 ```
+
 
