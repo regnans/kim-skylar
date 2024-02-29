@@ -35,6 +35,28 @@ range(lobster_traps$FISHING_SEASON)
 
 ## Which species?
 unique(lobster_traps$SITE)
+```
 
+Convert missing values
+```{r}
+unique(lobster_traps$TRAPS)
+
+lobster_update = lobster_traps %>% 
+  mutate(TRAPS = na_if(TRAPS,-99999) )
+
+unique(lobster_update$TRAPS)
+
+```
+
+filtering dataset
+```{r}
+lobster_filter = lobster_update %>% 
+  filter(SITE != "NAPL")
+
+unique(lobster_filter$SITE)
+```
+
+question 3
+```{r}
 ```
 
