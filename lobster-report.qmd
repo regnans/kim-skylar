@@ -3,23 +3,14 @@ title: "lobster-report"
 format: html
 ---
 
-## Quarto
+## Lobster report
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+# Abstract
+Data on abundance, size and fishing pressure of California spiny lobster (Panulirus interruptus) are collected along the mainland coast of the Santa Barbara Channel. Spiny lobsters are an important.
 
-## Running Code
+# Citation
+Santa Barbara Coastal LTER, D. Reed, and R. Miller. 2022. SBC LTER: Reef: Abundance, size and fishing effort for California Spiny Lobster (Panulirus interruptus), ongoing since 2012 ver 8. Environmental Data Initiative. https://doi.org/10.6073/pasta/25aa371650a671bafad64dd25a39ee18 (Accessed 2024-02-28).
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
-```
-
-You can add options to executable code like this 
-
-```{r}
-#| echo: false
-2 * 2
-```
-
-The `echo: false` option disables the printing of code (only output is displayed).
+## Owner analysis report
+Here is a link the lovely plot
+## Exercise: Data Visualization
